@@ -1,6 +1,9 @@
 {
   "autoreconnectrf.name": "AutoReconnect",
 
+  "modmenu.nameTranslation.autoreconnectrf": "AutoReconnect",
+  "modmenu.descriptionTranslation.autoreconnectrf": "Автоматически переподключает к серверами после непреднамеренного отключения.",
+
   "message.autoreconnectrf.viewModrinth": "Посмотреть на Modrinth",
   "message.autoreconnectrf.installYacl": "Установите Yet Another Config Lib для доступа к настройкам мода",
   "message.autoreconnectrf.configScreenDisabled": "Экран конфигурации недоступен в этой версии.",
@@ -13,7 +16,7 @@
 
   "option.autoreconnectrf.attempts": "Попытки",
   "option.autoreconnectrf.attempts.delays": "Задержки",
-  "option.autoreconnectrf.attempts.delays.tooltip": "Задержки между попытками в секундах.",
+  "option.autoreconnectrf.attempts.delays.tooltip": "Задержки между попытками (в секундах).",
   "option.autoreconnectrf.attempts.delays.value": "%s сек.",
   "option.autoreconnectrf.attempts.infinite": "Бесконечно",
   "option.autoreconnectrf.attempts.infinite.tooltip": "Повторять переподключение с последней настроенной задержкой.",
@@ -48,5 +51,5 @@
   "option.autoreconnectrf.misc.commandSigning": "Подпись команд",
   "option.autoreconnectrf.misc.commandSigning.tooltip": "Подписывать ли команды автосообщений при отправке. На некоторых серверах это может быть обязательно.",
   "option.autoreconnectrf.misc.regexIds": "Regex (регулярные выражения) для идентификаторов",
-  "option.autoreconnectrf.misc.regexIds.tooltip": "Обрабатывать ли все идентификаторы подключений автосообщений как регулярные выражения. Включайте только если понимаете, что делаете."
+  "option.autoreconnectrf.misc.regexIds.tooltip": "Обрабатывать все идентификаторы подключений автосообщений как регулярные выражения. Включайте только если понимаете, что делаете."
 }
